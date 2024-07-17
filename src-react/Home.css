@@ -1,0 +1,51 @@
+.home{
+    height: 80vh;
+    background: linear-gradient(rgba(33,33,33,0.522),rgba(33,33,33,0.522)), url('../src/component/assets/homepage1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    
+    .setContainer{
+        .homeText{
+            text-align: center;
+
+        .title{
+            color: white;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 2.5rem;
+        }
+
+        .subTitle{
+            color: white;
+            opacity: 9;
+            font-size: 15px;
+            font-weight: 500;
+            padding: 1rem 0;
+            max-width: 70%;
+            text-align: center;
+            margin: auto;
+        }
+
+        .main-btn{
+            background-color:#808080;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: center;
+        }
+        
+        .main-btn:hover{
+            background-color:black;
+            color:azure;
+        }
+        }
+    }
+}
